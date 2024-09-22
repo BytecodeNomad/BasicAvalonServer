@@ -1,2 +1,2 @@
 # BasicAvalonServer
-Multithreaded, NIO based, Avalon Server
+Java, NIO based, Avalon Server
