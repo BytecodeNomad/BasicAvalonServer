@@ -24,5 +24,6 @@ public class Main {
         for(String name: playersInLobby) {
             service.execute(() -> new ClientConnectionHandler(name).connect());
         }
+        service.shutdown();
     }
 }
